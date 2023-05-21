@@ -1,0 +1,177 @@
+body {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #faebd7;
+    padding: 20px 0;
+}
+
+#sunflower {
+    width: 15%;
+    height: auto;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 15px 15px 15px 15px;
+}
+
+nav a {
+    color: #99cfe0;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+nav a:hover {
+    color: #86c5da;
+}
+
+nav a:active {
+    color: #72bcd4;
+}
+
+img {
+    width: 25%;
+    padding: 15px;
+}
+
+.flowers {
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px 50px;
+    height: 375px;
+}
+
+.flowers li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    height: 100%;
+    border-color: #add8e6;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.flowers li:hover {
+    background-color: #add8e6;
+}
+
+.flowers li:hover h2 {
+    color: #ffffff;
+}
+
+.flowers li:active {
+    background-color: #86c5da;
+}
+
+.flowers h2 {
+    color: #86dac4;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.song {
+    color: #86dac4;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin: 10px;
+}
+
+.flowers li:hover .song {
+    color: #ffffff;
+}
+
+.flower-description {
+    font-weight: bold;
+    color: #ffd289;
+    text-transform: lowercase;
+}
+
+.flowers li:hover .flower-description {
+    color: #ffffff;
+}
+
+.poem {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.poem h2 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #91c3ff;
+}
+
+.poem h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #9791ff;
+}
+
+.poem p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9789;
+    padding: 15px;
+}
+
+.poem img {
+    padding-top: 35px;
+}
+
+.right-aligned-text {
+    text-align: right;
+}
+
+.left-aligned-text {
+    text-align: left;
+}
+
+.title {
+    padding: 30px;
+}
+
+footer {
+    background-color: #fadad7;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+footer img {
+    width: 5%;
+}
+
+footer p {
+    color: #869cda;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
