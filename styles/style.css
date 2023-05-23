@@ -135,6 +135,8 @@ form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+    font-weight: bold;
+    color: #c29fe8;
 }
 
 #flowers-radio {
@@ -163,13 +165,28 @@ form p {
 
 .custom-checkbox,
 .custom-radio {
-    margin: 0px 5px 0px 0px;
+    margin: 0px 10px 0px 0px;
 }
 
 .custom-submit {
     margin: 10px 0px 10px 0px;
     font-size: 20px;
     text-transform: lowercase;
+    width: 35%;
+    padding: 15px 0;
+    background: #ceb2ec;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.custom-submit:hover {
+    background: #a876de;
+}
+
+.custom-submit:active {
+    transform: scale(0.95);
 }
 
 ::placeholder {
@@ -178,7 +195,7 @@ form p {
 
 .poem {
     width: 650px;
-    margin: 0 auto;
+    margin: 0 0 20px 0;
     text-align: center;
 }
 

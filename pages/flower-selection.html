@@ -37,15 +37,15 @@
             <form action="">
                 <label for="full-name-input">Full Name:</label>
                 <input type="text" name="full-name" id="full-name-input" class="standard-input"
-                    placeholder="Enter your full name.">
+                    placeholder="Enter your full name." required>
 
                 <label for="email-input">E-mail Address:</label>
                 <input type="email" name="email" id="email-input" placeholder="Enter your e-mail address."
-                    class="standard-input">
+                    class="standard-input" required>
 
                 <label for="phone-number-input">Phone Number:</label>
                 <input type="tel" name="phone-number" id="phone-number-input" placeholder="Enter your phone number."
-                    class="standard-input">
+                    class="standard-input" required>
 
                 <label for="message-input">Share Your Thoughts:</label>
                 <textarea name="message" id="message-input" cols="30" rows="10" class="standard-input"
@@ -53,18 +53,17 @@
 
                 <label for="favorite-flower-input" class="custom-checkbox-text"><input type="checkbox"
                         name="favorite-flowers" id="favorite-flower-input" value="favorite-flowers"
-                        class="custom-checkbox">I solemnly pledge to champion the flower that
-                    resonate deeply within my
-                    soul!</label>
+                        class="custom-checkbox" checked required>I solemnly pledge to champion the flower that
+                    resonate deeply within my soul!</label>
 
                 <div id="flowers-radio">
                     <p>Choose your favorite flower!</p>
                     <label for="lotus"><input type="radio" name="flower" id="lotus" value="favorite-flower-1"
-                            class="custom-radio">Lotus!</label>
+                            class="custom-radio" required>Lotus!</label>
                     <label for="daisy"><input type="radio" name="flower" id="daisy" value="favorite-flower-2"
-                            class="custom-radio">Daisy!</label>
+                            class="custom-radio" required>Daisy!</label>
                     <label for="tulip"><input type="radio" name="flower" id="tulip" value="favorite-flower-3"
-                            class="custom-radio">Tulip!</label>
+                            class="custom-radio" required>Tulip!</label>
                 </div>
 
                 <input type="submit" class="custom-submit" value="Submit answer.">
