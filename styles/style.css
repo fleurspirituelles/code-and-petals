@@ -52,10 +52,19 @@ img {
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
-    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
 
 .flowers {
     width: 940px;
@@ -121,22 +130,46 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label,
+form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input, textarea {
-    display: block;
+#flowers-radio {
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+#flowers-radio p {
+    margin-bottom: 5px;
+}
+
+#flowers-radio label {
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+}
+
+.standard-input,
+.custom-checkbox-text {
+    display: inline-block;
     margin: 0 0 20px;
-    padding: 10px 25px;
+    padding: 5px 15px;
     text-transform: lowercase;
     width: 50%;
 }
 
-form textarea {
-    resize: vertical;
+.custom-checkbox,
+.custom-radio {
+    margin: 0px 5px 0px 0px;
+}
+
+.custom-submit {
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    text-transform: lowercase;
 }
 
 ::placeholder {

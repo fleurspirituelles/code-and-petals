@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../styles/reset.css">
-        <link rel="stylesheet" href="../styles/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Preferencias Florales</title>
 </head>
+
 <body>
     <header>
         <div class="box">
@@ -30,6 +32,45 @@
             </nav>
         </div>
     </header>
+    <main>
+        <div class="form-container">
+            <form action="">
+                <label for="full-name-input">Full Name:</label>
+                <input type="text" name="full-name" id="full-name-input" class="standard-input"
+                    placeholder="Enter your full name.">
+
+                <label for="email-input">E-mail Address:</label>
+                <input type="email" name="email" id="email-input" placeholder="Enter your e-mail address."
+                    class="standard-input">
+
+                <label for="phone-number-input">Phone Number:</label>
+                <input type="tel" name="phone-number" id="phone-number-input" placeholder="Enter your phone number."
+                    class="standard-input">
+
+                <label for="message-input">Share Your Thoughts:</label>
+                <textarea name="message" id="message-input" cols="30" rows="10" class="standard-input"
+                    placeholder="Is there anything enchanting you'd like to share about your beloved flower?"></textarea>
+
+                <label for="favorite-flower-input" class="custom-checkbox-text"><input type="checkbox"
+                        name="favorite-flowers" id="favorite-flower-input" value="favorite-flowers"
+                        class="custom-checkbox">I solemnly pledge to champion the flower that
+                    resonate deeply within my
+                    soul!</label>
+
+                <div id="flowers-radio">
+                    <p>Choose your favorite flower!</p>
+                    <label for="lotus"><input type="radio" name="flower" id="lotus" value="favorite-flower-1"
+                            class="custom-radio">Lotus!</label>
+                    <label for="daisy"><input type="radio" name="flower" id="daisy" value="favorite-flower-2"
+                            class="custom-radio">Daisy!</label>
+                    <label for="tulip"><input type="radio" name="flower" id="tulip" value="favorite-flower-3"
+                            class="custom-radio">Tulip!</label>
+                </div>
+
+                <input type="submit" class="custom-submit" value="Submit answer.">
+            </form>
+        </div>
+    </main>
     <footer>
         <img src="../images/cotton.png" alt="Digital drawing of a cotton flower, blushing and nestled in fluffy, 
     cloud-like texture. Its playful smile adds whimsy and charm to the delicate beauty and coziness.">
@@ -37,4 +78,5 @@
         <p>May 2023 for Oracle's ONE.</p>
     </footer>
 </body>
+
 </html>
