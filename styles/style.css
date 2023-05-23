@@ -1,5 +1,6 @@
 body {
     background-color: #ffffff;
+    text-transform: lowercase;
 }
 
 header {
@@ -35,7 +36,6 @@ nav a {
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
-    text-transform: lowercase;
 }
 
 nav a:hover {
@@ -49,6 +49,12 @@ nav a:active {
 img {
     width: 25%;
     padding: 15px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .flowers {
@@ -89,14 +95,12 @@ img {
     color: #86dac4;
     font-size: 30px;
     font-weight: bold;
-    text-transform: lowercase;
 }
 
 .song {
     color: #86dac4;
     font-size: 18px;
     font-weight: bold;
-    text-transform: lowercase;
     margin: 10px;
 }
 
@@ -107,18 +111,42 @@ img {
 .flower-description {
     font-weight: bold;
     color: #ffd289;
-    text-transform: lowercase;
 }
 
 .flowers li:hover .flower-description {
     color: #ffffff;
 }
 
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input, textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    text-transform: lowercase;
+    width: 50%;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+::placeholder {
+    text-transform: lowercase;
+}
+
 .poem {
     width: 650px;
     margin: 0 auto;
     text-align: center;
-    text-transform: lowercase;
 }
 
 .poem h2 {
@@ -159,10 +187,10 @@ img {
 footer {
     background-color: #fadad7;
     text-align: center;
-    position: fixed;
     bottom: 0;
     padding-bottom: 10px;
     width: 100%;
+    padding: 20px 0;
 }
 
 footer img {
@@ -173,5 +201,4 @@ footer p {
     color: #869cda;
     font-size: 18px;
     font-weight: bold;
-    text-transform: lowercase;
 }
