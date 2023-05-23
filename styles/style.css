@@ -28,7 +28,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 15px 15px 15px 15px;
+    margin: 15px;
 }
 
 nav a {
@@ -64,7 +64,6 @@ main {
     width: 50%;
     margin: 0 auto;
 }
-
 
 .flowers {
     width: 940px;
@@ -165,11 +164,11 @@ form p {
 
 .custom-checkbox,
 .custom-radio {
-    margin: 0px 10px 0px 0px;
+    margin: 0 10px 0 0;
 }
 
 .custom-submit {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0 10px 0;
     font-size: 20px;
     text-transform: lowercase;
     width: 35%;
